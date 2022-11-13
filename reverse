@@ -1,0 +1,8 @@
+# Verilen listenin içindeki elemanları tersine döndüren bir fonksiyon yazın. Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını da tersine döndürün.
+
+ornek = [[1, 2], [3, 4], [5, 6, 7]]
+ornek.reverse()
+for i in range(len(ornek)):
+    (ornek[i])=(ornek[i])[::-1]
+
+print(ornek)
